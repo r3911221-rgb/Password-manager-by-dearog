@@ -1,0 +1,41 @@
+blank_issues_enabled: false
+
+contact_links:
+
+- name: 📖 Documentation
+  about: Read the project documentation before opening an issue.
+  url: https://github.com/dearog/password-manager/blob/main/README.md
+
+- name: 💬 GitHub Discussions
+  about: Ask questions, share ideas, and discuss the project with the community.
+  url: https://github.com/dearog/password-manager/discussions
+
+- name: 🔒 Security Report
+  about: Report security vulnerabilities privately. Do not create a public issue for security problems.
+  url: https://github.com/dearog/password-manager/security/policy
+
+issue_templates:
+
+- name: Bug Report
+  description: Report a reproducible bug or unexpected behavior.
+  file: bug_report.md
+
+- name: Feature Request
+  description: Suggest a new feature or enhancement.
+  file: feature_request.md
+
+- name: Documentation
+  description: Report documentation errors or suggest improvements.
+  file: documentation.md
+
+- name: Performance
+  description: Report slow performance, high memory usage, or battery issues.
+  file: performance.md
+
+- name: Translation
+  description: Suggest a new language or improve existing translations.
+  file: translation.md
+
+- name: Question
+  description: Ask a question about the project.
+  file: question.md
